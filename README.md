@@ -1,3 +1,23 @@
+To set up this Laravel project, ensure your system meets the following requirements: PHP 8.2 or higher, Composer (latest version), Node.js 18.x or higher with NPM, MySQL 8.x or higher, Git (latest version), and a Stripe account for payment integration.
+
+First, clone the repository using git clone <repository-url> and navigate to the project directory with cd <project-folder>. Install PHP dependencies by running composer install and Node.js dependencies using npm install.
+
+Next, copy the environment configuration file using cp .env.example .env and update the .env file with your database credentials:
+
+DB_CONNECTION=mysql  
+DB_HOST=127.0.0.1  
+DB_PORT=3306  
+DB_DATABASE=your_database_name  
+DB_USERNAME=your_username  
+DB_PASSWORD=your_password  
+
+Then, generate the application key using php artisan key:generate. Run migrations and seed the database with php artisan migrate --seed.Also run php artisan storage:link
+
+To start the development server, use php artisan serve, and to build frontend assets, run npm run dev. If you need to run background jobs, start the queue listener with php artisan queue:listen --tries=1. Alternatively, you can start the server, queue listener, and Vite together using npm run dev.
+
+For production deployment, use composer install --optimize-autoloader --no-dev, php artisan config:cache, php artisan route:cache, php artisan migrate --force, and npm run build.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
