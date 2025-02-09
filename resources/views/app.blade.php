@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="google-site-verification" content="ZAav9qFzSy6p2twmijKr807TsWR_MDydNfupJWCSqiA" />
-        <meta name="google-site-verification" content="ZAav9qFzSy6p2twmijKr807TsWR_MDydNfupJWCSqiA" />
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
