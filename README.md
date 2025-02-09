@@ -1,3 +1,8 @@
+# Laravel Multi-Vendor E-Commerce Website 🌐
+A full-featured multi-vendor e-commerce website built with Laravel and React. 
+Supports Stripe payment, vendor management, and dynamic product variations.
+
+
 To set up this Laravel project, ensure your system meets the following requirements: PHP 8.2 or higher, Composer (latest version), Node.js 18.x or higher with NPM, MySQL 8.x or higher, Git (latest version), and a Stripe account for payment integration.
 
 First, clone the repository using git clone <repository-url> and navigate to the project directory with cd <project-folder>. Install PHP dependencies by running composer install and Node.js dependencies using npm install.
