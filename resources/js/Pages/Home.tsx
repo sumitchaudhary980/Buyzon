@@ -11,11 +11,10 @@ export default function Home({
     products,
 }: PageProps<{ products: PaginationProps<Product> }>) {
     return (
-         <Head title="Welcome" >
-            <meta name="google-site-verification" content="ZAav9qFzSy6p2twmijKr807TsWR_MDydNfupJWCSqiA" />
-            </Head>
+
         <AuthenticatedLayout>
-            
+                     <Head title="Welcome" />
+
            {products.data.length === 0 && (
                     <div
                         className="bg-base-200 py-16 px-8 text-center text-gray-300 text-3xl"
