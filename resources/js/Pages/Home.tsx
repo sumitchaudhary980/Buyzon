@@ -13,7 +13,7 @@ export default function Home({
     return (
         <AuthenticatedLayout>
             <Head title="Welcome" />
-            <meta name="google-site-verification" content="ZAav9qFzSy6p2twmijKr807TsWR_MDydNfupJWCSqiA" />            {products.data.length === 0 && (
+           {products.data.length === 0 && (
                     <div
                         className="bg-base-200 py-16 px-8 text-center text-gray-300 text-3xl"
                     >
