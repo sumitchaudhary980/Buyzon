@@ -1,4 +1,3 @@
-<meta name="google-site-verification" content="ZAav9qFzSy6p2twmijKr807TsWR_MDydNfupJWCSqiA" />
 # Laravel Multi-Vendor E-Commerce Website 🌐
 A full-featured multi-vendor e-commerce website built with Laravel and React. 
 Supports Stripe payment, vendor management, and dynamic product variations.
